@@ -1,0 +1,27 @@
+{
+  "clientName": "BMW",
+  "Product": "Bike",
+  "valueChain": {
+    "anim": {
+      "cost": 7576,
+      "label": "anim",
+      "childOf": "ullamco",
+      "currency": "USD",
+      "emission": "66 tCO2"
+    },
+    "elit": {
+      "cost": 6955,
+      "label": "elit",
+      "childOf": "BMW Smart Car",
+      "currency": "USD",
+      "emission": "85 tCO2"
+    },
+    "nisi": {
+      "cost": 5103,
+      "label": "nisi",
+      "childOf": "sunt",
+      "currency": "USD",
+      "emission": "93 tCO2"
+    }
+  }
+}
