@@ -211,7 +211,7 @@ const DnDFlow = () => {
   const fetchNodes = async () => {
     try {
       const response = await fetch(
-        "https://reactflow-backend.netlify.app/api/nodes"
+        "https://cyan-light-bear.cyclic.app/api/nodes"
       );
 
       if (!response.ok) {
