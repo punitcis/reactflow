@@ -161,7 +161,7 @@ const DnDFlow = () => {
 
     if (navigator.onLine) {
       try {
-        const response = await fetch('http://localhost:3001/api/nodes', {
+        const response = await fetch('https://cyan-light-bear.cyclic.app/api/nodes', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -201,7 +201,7 @@ const DnDFlow = () => {
 
   const fetchNodes = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/nodes');
+      const response = await fetch('https://cyan-light-bear.cyclic.app/api/nodes');
 
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
